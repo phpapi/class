@@ -1,6 +1,6 @@
 <?php
 
-namespace xlz\SMTP;
+namespace email\SMTP;
 
 /**
  * Send email class using SMTP Authentication
