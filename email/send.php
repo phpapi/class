@@ -8,8 +8,8 @@
  * Time: 16:45
  */
 
-use email\SMTP\Email;
-require_once(dirname(__DIR__) . '/email/email.php');
+use xlz\SMTP\Email;
+require_once(dirname(__DIR__) . '/email/Email.class.php');
 require_once(dirname(__DIR__) . '/email/case.php');
 
 class Mail extends TestCase {
@@ -26,4 +26,4 @@ class Mail extends TestCase {
     }
 }
 
-var_dump(Mail::send('to_email','to_name','title','message'));
+var_dump(Mail::send('phpapi@163.com','to_name','title','message'));
